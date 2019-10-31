@@ -1,4 +1,4 @@
-public class InvalidCronException extends Exception {
+public class InvalidCronException extends RuntimeException {
     public InvalidCronException(String message) {
         super(message);
     }

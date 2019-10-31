@@ -15,7 +15,7 @@ public class Cron {
     }
 
     /*
-     * @return CronSchedule this Cron follows.
+     * @return main.java.CronSchedule this main.java.Cron follows.
      */
     public CronSchedule getSchedule() {
         return schedule;
@@ -37,7 +37,7 @@ public class Cron {
     }
 
     /**
-     * @return String representation of this Cron in this format:
+     * @return String representation of this main.java.Cron in this format:
      * minute:        [NUM] [NUM] ....
      * hour:          [NUM] [NUM] ....
      * day of month:  [NUM] [NUM] ....
